@@ -1,394 +1,183 @@
-<!-- ============================================================
-     FILE: help.html
-     ============================================================ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Found a Bird? | Wild Raven Refuge</title>
-<meta name="description" content="What to do in the first hour if you find an injured, orphaned or grounded corvid. Step-by-step guidance from licensed rehabilitators.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2316211c'/><path d='M76 46a22 22 0 0 0-31-31L20 38v32h32z' fill='none' stroke='%23faf7f1' stroke-width='6' stroke-linejoin='round'/><line x1='60' y1='30' x2='14' y2='76' stroke='%23c99a3f' stroke-width='6' stroke-linecap='round'/></svg>">
+<meta name="description" content="What to do in the first hour.">
+<meta name="theme-color" content="#0d1b2a">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230d1b2a'/><circle cx='50' cy='46' r='17' fill='%23f6f3ec'/><polygon points='67,46 91,39 67,53' fill='%23c8964a'/></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header" id="siteHeader">
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <span class="topbar-item">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
-        Rescue line <a href="tel:+15412140198">(541) 214-0198</a>
-      </span>
-      <span class="topbar-item topbar-right">Eugene, Oregon &middot; USFWS permit MB-048219</span>
-    </div>
-  </div>
-  <div class="container nav-wrap">
-    <a class="logo" href="index.html" aria-label="Wild Raven Refuge home">
-      <svg class="logo-mark" viewBox="0 0 100 100" aria-hidden="true">
-        <path d="M76 46a22 22 0 0 0-31-31L20 38v32h32z" fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
-        <line x1="60" y1="30" x2="14" y2="76" stroke="#c99a3f" stroke-width="7" stroke-linecap="round"/>
-      </svg>
-      <span class="logo-text">Wild Raven<em>Refuge</em></span>
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true"><circle cx="46" cy="46" r="20" fill="currentColor"/><polygon points="64,46 94,38 64,54" fill="#c8964a"/><circle cx="54" cy="42" r="2.6" fill="#0d1b2a"/></svg>
+      <span class="brand-name">Wild Raven<em>Refuge</em></span>
     </a>
-    <nav class="main-nav" id="mainNav" aria-label="Main">
-      <a href="about.html">About</a>
-      <a href="work.html">Our work</a>
+    <nav class="site-nav" id="siteNav">
+      <a href="index.html">Home</a>
       <a href="stories.html">Rescues</a>
-      <a href="help.html" class="is-active">Found a bird?</a>
+      <a href="help.html" class="active">Found a bird?</a>
       <a href="contact.html">Contact</a>
-      <a class="btn btn-clay btn-sm" href="donate.html">Donate</a>
+      <a class="nav-donate" href="donate.html">Donate</a>
     </nav>
-    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav"><span></span><span></span></button>
   </div>
 </header>
 
-<main id="main">
+<main>
 
-  <section class="page-hero page-hero-short">
-    <div class="page-hero-media" data-fallback="hero">
-      <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=2200&q=80"
-           alt="A crow sitting quietly inside a cardboard box" width="2200" height="1200" fetchpriority="high">
-    </div>
-    <div class="page-hero-overlay"></div>
-    <div class="container page-hero-inner">
-      <p class="kicker">Found a bird?</p>
-      <h1>The first hour<br>matters most.</h1>
-      <p class="page-hero-sub">
-        Read this before you do anything. Most of what people instinctively do for a
-        downed bird makes things worse.
-      </p>
-      <div class="btn-row btn-row-left">
-        <a class="btn btn-clay btn-lg" href="tel:+15412140198">Call (541) 214-0198</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- URGENT BANNER -->
-  <section class="urgent-band">
-    <div class="container urgent-inner">
-      <svg class="urgent-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
-      <p><strong>If the bird has been in a cat&rsquo;s mouth, call us immediately.</strong> Cat bites are the most time-critical thing we see. Twelve hours is the difference between treatment and euthanasia.</p>
-    </div>
-  </section>
-
-  <!-- THE FOUR STEPS -->
-  <section class="section">
+  <section class="page-head">
     <div class="container">
-      <div class="section-head reveal">
-        <p class="eyebrow">Do these four things</p>
-        <h2>In this order.</h2>
-      </div>
-
-      <ol class="steps steps-large">
-        <li class="reveal">
-          <span class="step-num">01</span>
-          <div>
-            <h3>Put it in a box. Dark, quiet, warm.</h3>
-            <p>
-              A cardboard box with air holes punched in the lid. A folded towel or an
-              old t-shirt on the bottom &mdash; something with no loose threads, because
-              birds get their toes caught in loops. Close the lid.
-            </p>
-            <p>
-              Put the box somewhere dark, quiet and warm. A bathroom with the door shut
-              works well. So does a garage, as long as it&rsquo;s above 60&deg;F.
-            </p>
-            <p class="callout-inline">
-              <strong>No radio. No television. No children. No pets in the room.</strong>
-              A bird in shock can die from stress alone.
-            </p>
-          </div>
-        </li>
-
-        <li class="reveal">
-          <span class="step-num">02</span>
-          <div>
-            <h3>Do not feed it. Do not give it water.</h3>
-            <p>
-              This is the single hardest instruction to follow, and the most important.
-            </p>
-            <p>
-              A dehydrated or shocky bird cannot digest food. Food given at this stage
-              sits in the crop and rots. Water is worse &mdash; birds don&rsquo;t drink
-              the way we do, and liquid poured into a bird&rsquo;s mouth almost always
-              ends up in the lungs. That&rsquo;s aspiration pneumonia, and it kills
-              within days.
-            </p>
-            <p>
-              A bird can safely go 24 hours without food. It cannot safely go 24 hours
-              with fluid in its lungs.
-            </p>
-          </div>
-        </li>
-
-        <li class="reveal">
-          <span class="step-num">03</span>
-          <div>
-            <h3>Don&rsquo;t try to fix anything yourself.</h3>
-            <p>
-              No splints. No bandages. No antiseptic creams. No trying to set a wing.
-            </p>
-            <p>
-              A wing splinted incorrectly for three days will fuse incorrectly, and
-              that bird will never fly again. A leg wrapped too tight loses circulation
-              in about four hours. And most over-the-counter antiseptics are toxic to
-              birds.
-            </p>
-            <p>
-              Keep the bird contained and leave the medicine to someone with a licence
-              and an X-ray machine.
-            </p>
-          </div>
-        </li>
-
-        <li class="reveal">
-          <span class="step-num">04</span>
-          <div>
-            <h3>Call us. Or call someone.</h3>
-            <p>
-              <a href="tel:+15412140198">(541) 214-0198</a>, any hour. If we can&rsquo;t
-              take the bird, we&rsquo;ll tell you who can. We keep a current list of
-              every licensed rehabber in western Oregon and we hand it out freely.
-            </p>
-            <p>
-              If you&rsquo;re outside Lane County, call your nearest wildlife
-              rehabilitation centre first. In Oregon, ODFW&rsquo;s Salem office can
-              also point you to someone.
-            </p>
-            <div class="btn-row btn-row-left">
-              <a class="btn btn-clay" href="tel:+15412140198">Call the rescue line</a>
-              <a class="btn btn-outline" href="contact.html">Email us instead</a>
-            </div>
-          </div>
-        </li>
-      </ol>
+      <p class="eyebrow">Found a raven or crow?</p>
+      <h1>The first hour matters.</h1>
+      <p class="page-lede">Four rules. Tap each one to read.</p>
+      <a class="btn btn-solid btn-large" href="tel:+15412140198">Call (541) 214-0198</a>
     </div>
   </section>
 
-  <!-- IS IT ACTUALLY ORPHANED -->
-  <section class="section alt-bg">
-    <div class="container narrow">
-      <div class="prose reveal">
-        <p class="eyebrow">Before you pick it up</p>
-        <h2>Is it actually orphaned? Probably not.</h2>
-        <p class="drop-cap">
-          Every spring and summer we get calls about &ldquo;orphaned&rdquo; crow
-          fledglings hopping around on the ground. The overwhelming majority of them
-          are not orphaned. They are doing exactly what crow chicks are supposed to do.
-        </p>
-        <p>
-          Corvid chicks leave the nest about a week before they can fly. They spend
-          that week on the ground, in bushes, and on low branches, while their parents
-          feed them every few hours and scream at anything that comes near. It looks
-          alarming. It is completely normal.
-        </p>
+  <section class="gallery gallery-tight">
+    <div class="container">
+      <div class="gallery-strip gallery-strip-3">
+        <figure class="gallery-item"><img src="images/b.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/c.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/e.jpg" alt="Raven or crow" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
 
-        <h3>How to tell the difference</h3>
-        <div class="compare-grid">
-          <div class="compare compare-good">
-            <h4>Leave it alone if&hellip;</h4>
+  <section class="urgent">
+    <div class="container"><p><strong>Cat bite?</strong> Call us immediately. Twelve hours is the difference between treatment and euthanasia.</p></div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <div class="rule-list">
+
+        <details class="expand expand-block" open>
+          <summary><span class="big-step-num">01</span><span class="work-title">Box it. Dark, quiet, warm.</span><span class="expand-arrow">→</span></summary>
+          <div class="expand-body">
+            <p>Cardboard box with air holes in the lid. Folded towel on the bottom.</p>
+            <p>Somewhere dark, quiet and warm. No radio, no TV, no children, no pets.</p>
+          </div>
+        </details>
+
+        <details class="expand expand-block">
+          <summary><span class="big-step-num">02</span><span class="work-title">Do not feed it or give water.</span><span class="expand-arrow">→</span></summary>
+          <div class="expand-body"><p>Food rots in the crop of a shocky bird. Water goes into the lungs. This is the most important rule.</p></div>
+        </details>
+
+        <details class="expand expand-block">
+          <summary><span class="big-step-num">03</span><span class="work-title">Do not splint or wrap anything.</span><span class="expand-arrow">→</span></summary>
+          <div class="expand-body"><p>A wing set wrong fuses wrong. A leg wrapped too tight loses circulation in four hours.</p></div>
+        </details>
+
+        <details class="expand expand-block">
+          <summary><span class="big-step-num">04</span><span class="work-title">Call us. Any hour.</span><span class="expand-arrow">→</span></summary>
+          <div class="expand-body"><p><a href="tel:+15412140198">(541) 214-0198</a>, any hour. If we can&rsquo;t take the bird, we will tell you who can.</p></div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery gallery-tight">
+    <div class="container">
+      <div class="gallery-strip">
+        <figure class="gallery-item"><img src="images/f.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/g.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/k.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/h.jpg" alt="Raven or crow" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container narrow">
+      <p class="eyebrow">Before you pick it up</p>
+      <h2>Is it actually orphaned?</h2>
+      <div class="compare">
+        <details class="compare-col compare-good expand expand-block" open>
+          <summary><span class="work-title">Leave it alone if&hellip;</span><span class="expand-arrow">→</span></summary>
+          <div class="expand-body">
             <ul>
-              <li>It&rsquo;s fully feathered, with a short tail and stubby wings</li>
-              <li>It can hop, and it&rsquo;s holding its head up</li>
-              <li>There&rsquo;s an adult crow or raven nearby, watching you</li>
+              <li>Fully feathered, short tail, stubby wings</li>
+              <li>Can hop and hold its head up</li>
+              <li>An adult crow or raven is nearby</li>
               <li>Adults are bringing it food</li>
-              <li>It&rsquo;s moving around a bush or low branch</li>
             </ul>
-            <p class="compare-note">
-              Keep cats and dogs indoors for about ten days. That&rsquo;s the whole
-              intervention.
-            </p>
           </div>
-
-          <div class="compare compare-bad">
-            <h4>Call us if&hellip;</h4>
+        </details>
+        <details class="compare-col compare-bad expand expand-block" open>
+          <summary><span class="work-title">Call us if&hellip;</span><span class="expand-arrow">→</span></summary>
+          <div class="expand-body">
             <ul>
-              <li>It&rsquo;s naked, or covered in down but no real feathers</li>
-              <li>It&rsquo;s lying flat and can&rsquo;t right itself</li>
-              <li>No adult has appeared in two hours of watching</li>
-              <li>There&rsquo;s visible blood, a drooping wing, or a bad leg</li>
-              <li>The nest has fallen and the parents are gone</li>
-              <li>It was brought in by a cat or dog</li>
+              <li>Naked, or only down, no real feathers</li>
+              <li>Lying flat, can&rsquo;t right itself</li>
+              <li>No adult in two hours of watching</li>
+              <li>Visible blood, drooping wing, bad leg</li>
+              <li>Brought in by a cat or dog</li>
             </ul>
-            <p class="compare-note">
-              Put it in a box as described above and call us. Don&rsquo;t wait to see
-              if it improves.
-            </p>
           </div>
-        </div>
+        </details>
       </div>
     </div>
   </section>
 
-  <!-- HOW TO CATCH -->
-  <section class="section">
-    <div class="container step-grid">
-      <div class="step-copy reveal">
-        <p class="eyebrow">Handling</p>
-        <h2>How to pick up a corvid without hurting it or yourself.</h2>
-        <p class="lead">
-          A crow can break a finger. A raven can break two. Be deliberate, be quick,
-          and don&rsquo;t grab.
-        </p>
-        <ol class="mini-steps">
-          <li>
-            <h4>Wear gloves if you have them</h4>
-            <p>Leather gardening gloves are ideal. If you don&rsquo;t have gloves, use a thick towel.</p>
-          </li>
-          <li>
-            <h4>Approach from behind, not the front</h4>
-            <p>Their beak is the dangerous end. Coming from behind reduces the chance of a bite.</p>
-          </li>
-          <li>
-            <h4>Drop a towel over the bird first</h4>
-            <p>Darkness calms them immediately. It also gives you something to hold.</p>
-          </li>
-          <li>
-            <h4>Support the body, don&rsquo;t squeeze</h4>
-            <p>One hand under the belly, fingers around the wings but not pressing them. Birds have air sacs under the ribs &mdash; you can suffocate them by squeezing.</p>
-          </li>
-          <li>
-            <h4>Straight into the box</h4>
-            <p>Don&rsquo;t hold it to show anyone. Don&rsquo;t take a photo. Box it, close the lid.</p>
-          </li>
-        </ol>
-        <p class="callout">
-          <strong>If it&rsquo;s a raven and it&rsquo;s alert, don&rsquo;t try to
-          handle it yourself.</strong> Call us and stay with the bird from a distance.
-          An adult raven that can still move is genuinely dangerous, and an injured
-          raven that escapes into traffic is worse off than before.
-        </p>
-      </div>
-      <figure class="step-media reveal">
-        <div class="img-frame" data-fallback="portrait">
-          <img src="https://images.unsplash.com/photo-1555169062-013468b47731?auto=format&fit=crop&w=1100&q=80"
-               alt="Gloved hands supporting a bird's body correctly" width="1100" height="1400" loading="lazy">
-        </div>
-        <figcaption>One hand under the belly. Fingers around, never pressing.</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- DO NOT -->
-  <section class="section alt-bg">
+  <section class="gallery gallery-tight">
     <div class="container">
-      <div class="section-head reveal">
-        <p class="eyebrow">Please don&rsquo;t</p>
-        <h2>Nine things that make it worse.</h2>
-      </div>
-      <div class="dont-grid">
-        <div class="dont reveal"><span>✕</span><p>Give it bread, milk, or birdseed</p></div>
-        <div class="dont reveal"><span>✕</span><p>Give it water by syringe or dropper</p></div>
-        <div class="dont reveal"><span>✕</span><p>Put it in a wire cage or a hamster cage</p></div>
-        <div class="dont reveal"><span>✕</span><p>Keep it in the same room as a cat or dog</p></div>
-        <div class="dont reveal"><span>✕</span><p>Apply human antiseptic, oil, or ointment</p></div>
-        <div class="dont reveal"><span>✕</span><p>Try to splint a wing or leg yourself</p></div>
-        <div class="dont reveal"><span>✕</span><p>Let children hold it &ldquo;to say goodbye&rdquo;</p></div>
-        <div class="dont reveal"><span>✕</span><p>Keep it overnight &ldquo;to see how it does&rdquo;</p></div>
-        <div class="dont reveal"><span>✕</span><p>Release it somewhere unfamiliar</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- REFERRALS -->
-  <section class="section">
-    <div class="container narrow">
-      <div class="prose reveal">
-        <p class="eyebrow">Outside our area</p>
-        <h2>If we can&rsquo;t take it, here&rsquo;s who might.</h2>
-        <p>
-          We cover Lane, Linn, Benton and Douglas counties. Beyond that, these are the
-          organisations we send people to most often. Always call before driving &mdash;
-          capacity changes daily.
-        </p>
-        <ul class="referral-list">
-          <li>
-            <h4>Portland Audubon &mdash; Wildlife Care Center</h4>
-            <p>Portland, OR &middot; (503) 292-0304 &middot; The largest wildlife hospital in the state.</p>
-          </li>
-          <li>
-            <h4>Chintimini Wildlife Center</h4>
-            <p>Corvallis, OR &middot; (541) 745-5324 &middot; Birds and small mammals, Benton County.</p>
-          </li>
-          <li>
-            <h4>Turtle Ridge Wildlife Center</h4>
-            <p>Salem, OR &middot; (503) 540-8664 &middot; Native wildlife, all species.</p>
-          </li>
-          <li>
-            <h4>Wildlife Center of the North Coast</h4>
-            <p>Astoria, OR &middot; (503) 338-0331 &middot; Coastal species, seabirds.</p>
-          </li>
-          <li>
-            <h4>ODFW Wildlife Health Hotline</h4>
-            <p>Statewide &middot; (866) 968-2600 &middot; For suspected disease or unusual mortality.</p>
-          </li>
-        </ul>
-        <p class="prose-note">
-          If you&rsquo;re outside Oregon, the National Wildlife Rehabilitators
-          Association maintains a searchable directory at nwrawildlife.org.
-        </p>
+      <div class="gallery-strip">
+        <figure class="gallery-item"><img src="images/i.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/j.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/k.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/l.jpg" alt="Raven or crow" loading="lazy"></figure>
       </div>
     </div>
   </section>
 
   <section class="cta-band">
-    <div class="container cta-band-inner reveal">
+    <div class="container">
       <h2>Keep the phone line open.</h2>
-      <p>Our rescue line runs on donations. It costs about $40 a day to keep it staffed and fuelled.</p>
-      <div class="btn-row">
-        <a class="btn btn-clay btn-lg" href="donate.html">Donate</a>
-      </div>
+      <a class="btn btn-solid btn-large" href="https://www.paypal.com/donate/?hosted_button_id=A98NPM9H6RPYJ" target="_blank" rel="noopener">Donate with PayPal</a>
     </div>
   </section>
 
 </main>
 
 <footer class="site-footer">
-  <div class="container footer-grid">
+  <div class="container footer-inner">
     <div class="footer-brand">
-      <a class="logo logo-footer" href="index.html">
-        <svg class="logo-mark" viewBox="0 0 100 100" aria-hidden="true">
-          <path d="M76 46a22 22 0 0 0-31-31L20 38v32h32z" fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
-          <line x1="60" y1="30" x2="14" y2="76" stroke="#c99a3f" stroke-width="7" stroke-linecap="round"/>
-        </svg>
-        <span class="logo-text">Wild Raven<em>Refuge</em></span>
+      <span class="brand-name brand-name-light">Wild Raven<em>Refuge</em></span>
+      <p>Ravens and crows only. Willamette Valley, Oregon.</p>
+      <a class="ig-btn" href="https://www.instagram.com/wild_raven_refuge" target="_blank" rel="noopener" style="margin-top:1.25rem;">
+        <svg class="ig-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        <span class="ig-handle"><strong>@wild_raven_refuge</strong><small>Follow on Instagram</small></span>
       </a>
-      <p>A registered 501(c)(3) nonprofit. Corvid rescue and rehabilitation in the Willamette Valley since 2019.</p>
     </div>
-    <div class="footer-col">
-      <h4>The refuge</h4>
-      <a href="about.html">About us</a>
-      <a href="work.html">Our work</a>
-      <a href="stories.html">Rescue stories</a>
-      <a href="contact.html">Contact</a>
+    <div class="footer-col"><h4>Explore</h4>
+      <a href="stories.html">Rescues</a><a href="help.html">Found a bird?</a><a href="donate.html">Donate</a><a href="contact.html">Contact</a>
     </div>
-    <div class="footer-col">
-      <h4>Get involved</h4>
-      <a href="donate.html">Donate</a>
-      <a href="help.html">Found a bird?</a>
-      <a href="mailto:volunteer@wildravenrefuge.org">Volunteer</a>
-      <a href="mailto:hello@wildravenrefuge.org">Press &amp; partnerships</a>
+    <div class="footer-col"><h4>Reach us</h4>
+      <a href="tel:+15412140198">(541) 214-0198</a>
+      <a href="mailto:saviuorme@gmail.com">saviuorme@gmail.com</a>
+      <a href="https://www.instagram.com/wild_raven_refuge" target="_blank" rel="noopener">@wild_raven_refuge</a>
     </div>
-    <div class="footer-col">
-      <h4>Legal</h4>
-      <a href="#">Financial reports</a>
-      <a href="#">Privacy policy</a>
-      <a href="#">Permits &amp; licensing</a>
-      <span class="footer-static">EIN 84-2910337</span>
+    <div class="footer-col"><h4>Legal</h4>
+      <span>USFWS MB-048219</span><span>ODFW 0482-R</span><span>EIN 84-2910337</span>
     </div>
   </div>
   <div class="container footer-bottom">
-    <span>&copy; <span class="js-year">2026</span> Wild Raven Refuge. All rights reserved.</span>
+    <span>&copy; <span class="js-year">2026</span> Wild Raven Refuge</span>
     <span>Rescue &middot; Care &middot; Release</span>
   </div>
 </footer>
+
 <script src="js/main.js"></script>
 </body>
 </html>

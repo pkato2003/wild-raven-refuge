@@ -1,335 +1,106 @@
-<!-- ============================================================
-     FILE: stories.html
-     ============================================================ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rescue Stories | Wild Raven Refuge</title>
-<meta name="description" content="Real case histories from Wild Raven Refuge — ravens with lead poisoning, orphaned crow chicks, and the birds that made it back out.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2316211c'/><path d='M76 46a22 22 0 0 0-31-31L20 38v32h32z' fill='none' stroke='%23faf7f1' stroke-width='6' stroke-linejoin='round'/><line x1='60' y1='30' x2='14' y2='76' stroke='%23c99a3f' stroke-width='6' stroke-linecap='round'/></svg>">
+<title>Rescues | Wild Raven Refuge</title>
+<meta name="description" content="Frank, Jackcrow and Chali.">
+<meta name="theme-color" content="#0d1b2a">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230d1b2a'/><circle cx='50' cy='46' r='17' fill='%23f6f3ec'/><polygon points='67,46 91,39 67,53' fill='%23c8964a'/></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header" id="siteHeader">
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <span class="topbar-item">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
-        Rescue line <a href="tel:+15412140198">(541) 214-0198</a>
-      </span>
-      <span class="topbar-item topbar-right">Eugene, Oregon &middot; USFWS permit MB-048219</span>
-    </div>
-  </div>
-  <div class="container nav-wrap">
-    <a class="logo" href="index.html" aria-label="Wild Raven Refuge home">
-      <svg class="logo-mark" viewBox="0 0 100 100" aria-hidden="true">
-        <path d="M76 46a22 22 0 0 0-31-31L20 38v32h32z" fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
-        <line x1="60" y1="30" x2="14" y2="76" stroke="#c99a3f" stroke-width="7" stroke-linecap="round"/>
-      </svg>
-      <span class="logo-text">Wild Raven<em>Refuge</em></span>
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true"><circle cx="46" cy="46" r="20" fill="currentColor"/><polygon points="64,46 94,38 64,54" fill="#c8964a"/><circle cx="54" cy="42" r="2.6" fill="#0d1b2a"/></svg>
+      <span class="brand-name">Wild Raven<em>Refuge</em></span>
     </a>
-    <nav class="main-nav" id="mainNav" aria-label="Main">
-      <a href="about.html">About</a>
-      <a href="work.html">Our work</a>
-      <a href="stories.html" class="is-active">Rescues</a>
+    <nav class="site-nav" id="siteNav">
+      <a href="index.html">Home</a>
+      <a href="stories.html" class="active">Rescues</a>
       <a href="help.html">Found a bird?</a>
       <a href="contact.html">Contact</a>
-      <a class="btn btn-clay btn-sm" href="donate.html">Donate</a>
+      <a class="nav-donate" href="donate.html">Donate</a>
     </nav>
-    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav"><span></span><span></span></button>
   </div>
 </header>
 
-<main id="main">
+<main>
 
-  <section class="page-hero">
-    <div class="page-hero-media" data-fallback="hero">
-      <img src="https://images.unsplash.com/photo-1544923408-75c5cef46f14?auto=format&fit=crop&w=2200&q=80"
-           alt="A raven looking directly at the camera" width="2200" height="1200" fetchpriority="high">
-    </div>
-    <div class="page-hero-overlay"></div>
-    <div class="container page-hero-inner">
-      <p class="kicker">Rescue stories</p>
-      <h1>Nine birds.<br>Nine different outcomes.</h1>
-      <p class="page-hero-sub">
-        Some of these end with a release. Some don&rsquo;t. We publish both, because
-        the second kind is where the lesson is.
-      </p>
+  <section class="page-head">
+    <div class="container">
+      <p class="eyebrow">Rescues</p>
+      <h1>Frank, Jackcrow &amp; Chali.</h1>
+      <p class="page-lede">Tap any bird to read the full story.</p>
     </div>
   </section>
 
-  <!-- FEATURED STORY -->
+  <section class="gallery gallery-tight">
+    <div class="container">
+      <div class="gallery-strip">
+        <figure class="gallery-item"><img src="images/17.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/18.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/19.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/20.jpg" alt="Raven or crow" loading="lazy"></figure>
+      </div>
+      <div class="gallery-strip">
+        <figure class="gallery-item"><img src="images/21.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/22.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/23.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/24.jpg" alt="Raven or crow" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
   <section class="section">
     <div class="container">
-      <article class="feature-story reveal">
-        <figure class="feature-media">
-          <div class="img-frame" data-fallback="hero">
-            <img src="https://images.unsplash.com/photo-1591608971362-f08b2a75731a?auto=format&fit=crop&w=1600&q=80"
-                 alt="An adult raven standing on grass, recovered and alert" width="1600" height="1100" loading="lazy">
-          </div>
-        </figure>
-        <div class="feature-copy">
-          <p class="story-meta">Raven &middot; Admitted 4 Nov &middot; Released 19 Mar</p>
-          <h2>Juniper</h2>
-          <p class="lead">
-            A raven that shouldn&rsquo;t have survived, and then did.
-          </p>
-          <p>
-            A jogger on the Fern Ridge path called us on a Tuesday morning about a
-            raven sitting in the gravel near the shooting range, not moving. When Priya
-            got there, the bird was upright but couldn&rsquo;t stand. It would push
-            itself up, hold for a few seconds, and fold.
-          </p>
-          <p>
-            The presentation looked like spinal trauma. It wasn&rsquo;t. Her blood lead
-            level came back at 74 &micro;g/dL &mdash; well into the range where birds
-            are usually euthanised on welfare grounds.
-          </p>
-          <p>
-            We chelated her anyway. Eleven weeks, two courses, daily subcutaneous
-            fluids, and syringe-feeding for the first three weeks. She regained her
-            feet at day nineteen. She started flying at day forty-one. She spent
-            another five weeks in the flight pen getting strong enough to be worth
-            releasing.
-          </p>
-          <p>
-            She went back out on March 19th, about 300 metres from where she was found.
-          </p>
-          <div class="story-stats">
-            <div><span>135</span><p>Days in care</p></div>
-            <div><span>74 &micro;g/dL</span><p>Lead at intake</p></div>
-            <div><span>2</span><p>Chelation courses</p></div>
-            <div><span>$1,180</span><p>Total cost</p></div>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
+      <div class="bird-grid bird-grid-stories">
 
-  <!-- STORY GRID -->
-  <section class="section alt-bg">
-    <div class="container">
-      <div class="section-head reveal">
-        <p class="eyebrow">More cases</p>
-        <h2>From the casebook.</h2>
-        <p class="lead">Names are ours. The details are real.</p>
-      </div>
-
-      <div class="story-grid story-grid-wide">
-
-        <article class="story reveal">
-          <div class="story-media" data-fallback="wide">
-            <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=1000&q=80"
-                 alt="Three juvenile crows perched closely together" width="1000" height="750" loading="lazy">
-          </div>
-          <div class="story-body">
-            <p class="story-meta">Crows &middot; 6 weeks in care</p>
-            <h3>The three from the windstorm</h3>
-            <p>
-              A February windstorm took down a 90-foot Douglas fir on a property in
-              Coburg. The tree had an active crow nest about two-thirds of the way up.
-              The homeowner heard the chicks before she saw them.
-            </p>
-            <p>
-              Three nestlings, roughly nine days old, no feather coverage to speak of.
-              They needed feeding every ninety minutes between 6am and 10pm for the
-              first eighteen days. Three volunteers rotated shifts. All three fledged,
-              all three were released together in April, and two of them were still
-              visiting the original garden in July.
-            </p>
-            <p class="story-outcome outcome-good">Outcome: all three released</p>
+        <article class="bird-card">
+          <div class="bird-photo"><img src="images/12.jpg" alt="Frank the raven" loading="lazy"></div>
+          <div class="bird-body">
+            <p class="bird-tag">Raven &middot; 63 days</p>
+            <h3>Frank</h3>
+            <p class="bird-one-line">Fractured humerus. Released.</p>
+            <details class="expand"><summary>Read the full story <span>→</span></summary>
+              <div class="expand-body">
+                <p>Found on Coburg Road, two days down. A clean fracture through the left humerus. Dr. Okonkwo pinned the wing the next morning. Four weeks recovery, five in the flight pen. He bit through one leather glove. Released 16 January, same location.</p>
+              </div>
+            </details>
           </div>
         </article>
 
-        <article class="story reveal">
-          <div class="story-media" data-fallback="wide">
-            <img src="https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=1000&q=80"
-                 alt="A young crow with a bandaged wing being examined" width="1000" height="750" loading="lazy">
-          </div>
-          <div class="story-body">
-            <p class="story-meta">Crow &middot; 7 weeks in care</p>
-            <h3>Ash</h3>
-            <p>
-              Hit by a car on a residential street in the Whiteaker. Left wing
-              fractured at the humerus. Devon drove him to Springfield the same
-              afternoon; Dr. Okonkwo pinned the wing the following morning.
-            </p>
-            <p>
-              Four weeks of restricted movement, then two weeks of slow re-flight.
-              What made this case worth writing down is that his family never left.
-              Two adults and a sibling were still using the same block the entire time.
-              We released him into that block and he was moving with them by evening.
-            </p>
-            <p class="story-outcome outcome-good">Outcome: released back to family group</p>
+        <article class="bird-card">
+          <div class="bird-photo"><img src="images/16.jpg" alt="Jackcrow the crow" loading="lazy"></div>
+          <div class="bird-body">
+            <p class="bird-tag">Crow &middot; 47 days</p>
+            <h3>Jackcrow</h3>
+            <p class="bird-one-line">Nestling. Released.</p>
+            <details class="expand"><summary>Read the full story <span>→</span></summary>
+              <div class="expand-body">
+                <p>Nine days old when he came in. No feathers, no eyes open. Formula every ninety minutes for three weeks. Fledged in April and released into the same garden he came from. Still visits most mornings.</p>
+              </div>
+            </details>
           </div>
         </article>
 
-        <article class="story reveal">
-          <div class="story-media" data-fallback="wide">
-            <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=1000&q=80"
-                 alt="A jay perched on a branch in a garden" width="1000" height="750" loading="lazy">
-          </div>
-          <div class="story-body">
-            <p class="story-meta">Steller&rsquo;s jay &middot; 9 days in care</p>
-            <h3>The one that got away</h3>
-            <p>
-              A juvenile jay brought in after a window strike. No fractures, no
-              bleeding, normal bloodwork. He was alert and reactive within four hours.
-              We kept him overnight for observation and released him the next morning
-              from the same garden.
-            </p>
-            <p>
-              Most window strikes aren&rsquo;t this lucky. This one was, because the
-              homeowner called us within ten minutes and did exactly what we told her
-              to do, which was nothing but put it in a box.
-            </p>
-            <p class="story-outcome outcome-good">Outcome: released at 24 hours</p>
-          </div>
-        </article>
-
-        <article class="story reveal">
-          <div class="story-media" data-fallback="wide">
-            <img src="https://images.unsplash.com/photo-1544923408-75c5cef46f14?auto=format&fit=crop&w=1000&q=80"
-                 alt="A raven standing on a fence post" width="1000" height="750" loading="lazy">
-          </div>
-          <div class="story-body">
-            <p class="story-meta">Raven &middot; 22 days in care</p>
-            <h3>Nine Mile</h3>
-            <p>
-              An adult raven picked up near the Nine Mile marker on Highway 126, unable
-              to fly. Radiographs showed an old, healed fracture in the right wing
-              &mdash; at least two years old. This bird had been flying on a bad wing
-              for years and had finally lost the strength to compensate.
-            </p>
-            <p>
-              There was nothing to fix. What he needed was conditioning. Twenty-two
-              days in the long pen, gradually rebuilding, and he was flying well enough
-              to release. Banded and released at the same location.
-            </p>
-            <p class="story-outcome outcome-good">Outcome: released after conditioning</p>
-          </div>
-        </article>
-
-        <article class="story reveal">
-          <div class="story-media" data-fallback="wide">
-            <img src="https://images.unsplash.com/photo-1555169062-013468b47731?auto=format&fit=crop&w=1000&q=80"
-                 alt="A crow being held gently in gloved hands" width="1000" height="750" loading="lazy">
-          </div>
-          <div class="story-body">
-            <p class="story-meta">Crow &middot; 3 days in care</p>
-            <h3>The cat bite</h3>
-            <p>
-              A crow found in a back garden in Bethel, unable to use its right leg.
-              Two puncture wounds on the thigh, small enough to miss. The finder waited
-              three days before calling, because the bird &ldquo;seemed to be getting
-              better.&rdquo;
-            </p>
-            <p>
-              By the time she reached us, the infection had reached the bone. She was
-              euthanised the same evening.
-            </p>
-            <p class="story-outcome outcome-bad">Outcome: euthanised on welfare grounds</p>
-          </div>
-        </article>
-
-        <article class="story reveal">
-          <div class="story-media" data-fallback="wide">
-            <img src="https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=1000&q=80"
-                 alt="A juvenile crow looking up from the ground" width="1000" height="750" loading="lazy">
-          </div>
-          <div class="story-body">
-            <p class="story-meta">Crow &middot; 1 day in care</p>
-            <h3>The fledgling that didn&rsquo;t need us</h3>
-            <p>
-              A healthy crow fledgling, fully feathered, hopping on the ground in a
-              front garden. Its parents were in the tree above it, screaming at the
-              caller. This is completely normal behaviour &mdash; crow chicks leave
-              the nest before they can fly, and spend about a week on the ground while
-              their parents feed them.
-            </p>
-            <p>
-              We talked the caller through it and she agreed to leave the bird alone
-              and keep her dog inside for a week. It flew off nine days later.
-            </p>
-            <p class="story-outcome outcome-good">Outcome: never admitted. Best possible result.</p>
-          </div>
-        </article>
-
-        <article class="story reveal">
-          <div class="story-media" data-fallback="wide">
-            <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=1000&q=80"
-                 alt="A magpie on a wooden post" width="1000" height="750" loading="lazy">
-          </div>
-          <div class="story-body">
-            <p class="story-meta">Magpie &middot; 5 weeks in care</p>
-            <h3>Pica</h3>
-            <p>
-              A magpie admitted after being found on the ground, thin and weak.
-              Radiographs showed eleven small metal objects in the gizzard. She had
-              been eating things she shouldn&rsquo;t have, probably from a construction
-              site or a burned-out lot.
-            </p>
-            <p>
-              Two of the objects passed naturally. Three were removed surgically. The
-              rest we managed with a bulk diet and careful monitoring. She regained
-              weight steadily and was released at five weeks.
-            </p>
-            <p class="story-outcome outcome-good">Outcome: released</p>
-          </div>
-        </article>
-
-        <article class="story reveal">
-          <div class="story-media" data-fallback="wide">
-            <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=1000&q=80"
-                 alt="A group of crows on a wire at dusk" width="1000" height="750" loading="lazy">
-          </div>
-          <div class="story-body">
-            <p class="story-meta">Crows &middot; ongoing</p>
-            <h3>The roost at Alton Baker</h3>
-            <p>
-              Every winter, several thousand crows roost in the trees at Alton Baker
-              Park. Every winter, we get a handful of calls about birds found on the
-              ground underneath, usually juveniles that got pushed off a perch in the
-              night.
-            </p>
-            <p>
-              Most of them are fine &mdash; cold, hungry, and disoriented, but not
-              injured. We assess them, warm them, feed them for a day, and release
-              them back into the roost at dusk. It&rsquo;s the least dramatic work we
-              do, and one of the most satisfying.
-            </p>
-            <p class="story-outcome outcome-good">Outcome: 14 of 17 released within 48 hours</p>
-          </div>
-        </article>
-
-        <article class="story reveal">
-          <div class="story-media" data-fallback="wide">
-            <img src="https://images.unsplash.com/photo-1591608971362-f08b2a75731a?auto=format&fit=crop&w=1000&q=80"
-                 alt="A raven perched high in a bare tree against the sky" width="1000" height="750" loading="lazy">
-          </div>
-          <div class="story-body">
-            <p class="story-meta">Raven &middot; 4 days in care</p>
-            <h3>Gunshot</h3>
-            <p>
-              An adult raven brought in after being found in a field near Junction City.
-              Radiographs showed a single lead pellet in the body cavity and a fractured
-              coracoid. The fracture was not survivable. She was euthanised.
-            </p>
-            <p>
-              We include this one because it&rsquo;s the case that made us start talking
-              publicly about lead. One pellet. One bird. Multiply that by every field
-              and every range in the valley.
-            </p>
-            <p class="story-outcome outcome-bad">Outcome: euthanised on welfare grounds</p>
+        <article class="bird-card">
+          <div class="bird-photo"><img src="images/8.jpg" alt="Chali the raven" loading="lazy"></div>
+          <div class="bird-body">
+            <p class="bird-tag">Raven &middot; 98 days</p>
+            <h3>Chali</h3>
+            <p class="bird-one-line">Lead poisoning. Released.</p>
+            <details class="expand"><summary>Read the full story <span>→</span></summary>
+              <div class="expand-body">
+                <p>Found near Junction City, unable to stand. Blood lead 74 &micro;g/dL. Two chelation courses, eleven weeks of syringe-feeding, slow re-flight training. Released in March, ninety-eight days after intake.</p>
+              </div>
+            </details>
           </div>
         </article>
 
@@ -337,93 +108,60 @@
     </div>
   </section>
 
-  <!-- YEAR IN NUMBERS -->
-  <section class="section">
+  <section class="gallery gallery-tight">
     <div class="container">
-      <div class="section-head reveal">
-        <p class="eyebrow">Last year in numbers</p>
-        <h2>2025, honestly reported.</h2>
-        <p class="lead">
-          Every licensed rehabilitator keeps these figures. Most don&rsquo;t publish
-          them. We think you should see them.
-        </p>
+      <div class="gallery-strip">
+        <figure class="gallery-item"><img src="images/27.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/25.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/26.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/29.jpg" alt="Raven or crow" loading="lazy"></figure>
       </div>
-
-      <div class="data-table reveal">
-        <table>
-          <caption class="visually-hidden">Wild Raven Refuge 2025 intake and outcome figures</caption>
-          <thead>
-            <tr><th scope="col">Species</th><th scope="col">Admitted</th><th scope="col">Released</th><th scope="col">Euthanised</th><th scope="col">Died in care</th></tr>
-          </thead>
-          <tbody>
-            <tr><th scope="row">American crow</th><td>186</td><td>124</td><td>38</td><td>24</td></tr>
-            <tr><th scope="row">Common raven</th><td>41</td><td>22</td><td>13</td><td>6</td></tr>
-            <tr><th scope="row">Steller&rsquo;s jay</th><td>53</td><td>39</td><td>9</td><td>5</td></tr>
-            <tr><th scope="row">California scrub-jay</th><td>28</td><td>21</td><td>4</td><td>3</td></tr>
-            <tr><th scope="row">Black-billed magpie</th><td>12</td><td>7</td><td>3</td><td>2</td></tr>
-            <tr class="total-row"><th scope="row">Total</th><td>320</td><td>213</td><td>67</td><td>40</td></tr>
-          </tbody>
-        </table>
-        <p class="data-note">
-          &ldquo;Euthanised&rdquo; means a licensed veterinarian or rehabber determined
-          the bird could not be returned to the wild and could not be placed. It is
-          never a decision we take quickly.
-        </p>
+      <div class="gallery-strip">
+        <figure class="gallery-item"><img src="images/30.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/15.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/18.jpg" alt="Raven or crow" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="images/23.jpg" alt="Raven or crow" loading="lazy"></figure>
       </div>
     </div>
   </section>
 
   <section class="cta-band">
-    <div class="container cta-band-inner reveal">
-      <h2>These stories cost about $340 each.</h2>
-      <p>That&rsquo;s the average cost per bird admitted, from intake to release.</p>
-      <div class="btn-row">
-        <a class="btn btn-clay btn-lg" href="donate.html">Fund the next one</a>
-      </div>
+    <div class="container">
+      <h2>Birds like these cost $340 each.</h2>
+      <a class="btn btn-solid btn-large" href="https://www.paypal.com/donate/?hosted_button_id=A98NPM9H6RPYJ" target="_blank" rel="noopener">Donate with PayPal</a>
     </div>
   </section>
 
 </main>
 
 <footer class="site-footer">
-  <div class="container footer-grid">
+  <div class="container footer-inner">
     <div class="footer-brand">
-      <a class="logo logo-footer" href="index.html">
-        <svg class="logo-mark" viewBox="0 0 100 100" aria-hidden="true">
-          <path d="M76 46a22 22 0 0 0-31-31L20 38v32h32z" fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
-          <line x1="60" y1="30" x2="14" y2="76" stroke="#c99a3f" stroke-width="7" stroke-linecap="round"/>
-        </svg>
-        <span class="logo-text">Wild Raven<em>Refuge</em></span>
+      <span class="brand-name brand-name-light">Wild Raven<em>Refuge</em></span>
+      <p>Ravens and crows only. Willamette Valley, Oregon.</p>
+      <a class="ig-btn" href="https://www.instagram.com/wild_raven_refuge" target="_blank" rel="noopener" style="margin-top:1.25rem;">
+        <svg class="ig-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        <span class="ig-handle"><strong>@wild_raven_refuge</strong><small>Follow on Instagram</small></span>
       </a>
-      <p>A registered 501(c)(3) nonprofit. Corvid rescue and rehabilitation in the Willamette Valley since 2019.</p>
     </div>
-    <div class="footer-col">
-      <h4>The refuge</h4>
-      <a href="about.html">About us</a>
-      <a href="work.html">Our work</a>
-      <a href="stories.html">Rescue stories</a>
-      <a href="contact.html">Contact</a>
+    <div class="footer-col"><h4>Explore</h4>
+      <a href="stories.html">Rescues</a><a href="help.html">Found a bird?</a><a href="donate.html">Donate</a><a href="contact.html">Contact</a>
     </div>
-    <div class="footer-col">
-      <h4>Get involved</h4>
-      <a href="donate.html">Donate</a>
-      <a href="help.html">Found a bird?</a>
-      <a href="mailto:volunteer@wildravenrefuge.org">Volunteer</a>
-      <a href="mailto:hello@wildravenrefuge.org">Press &amp; partnerships</a>
+    <div class="footer-col"><h4>Reach us</h4>
+      <a href="tel:+15412140198">(541) 214-0198</a>
+      <a href="mailto:saviuorme@gmail.com">saviuorme@gmail.com</a>
+      <a href="https://www.instagram.com/wild_raven_refuge" target="_blank" rel="noopener">@wild_raven_refuge</a>
     </div>
-    <div class="footer-col">
-      <h4>Legal</h4>
-      <a href="#">Financial reports</a>
-      <a href="#">Privacy policy</a>
-      <a href="#">Permits &amp; licensing</a>
-      <span class="footer-static">EIN 84-2910337</span>
+    <div class="footer-col"><h4>Legal</h4>
+      <span>USFWS MB-048219</span><span>ODFW 0482-R</span><span>EIN 84-2910337</span>
     </div>
   </div>
   <div class="container footer-bottom">
-    <span>&copy; <span class="js-year">2026</span> Wild Raven Refuge. All rights reserved.</span>
+    <span>&copy; <span class="js-year">2026</span> Wild Raven Refuge</span>
     <span>Rescue &middot; Care &middot; Release</span>
   </div>
 </footer>
+
 <script src="js/main.js"></script>
 </body>
 </html>
